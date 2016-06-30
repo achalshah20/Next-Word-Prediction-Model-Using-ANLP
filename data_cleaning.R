@@ -5,7 +5,6 @@
 
 # Load require functions
 source('func/utility_funcs.R')
-source('func/data_analysis_funcs.R')
 
 # For debugging purpose
 isDebugMode = F
