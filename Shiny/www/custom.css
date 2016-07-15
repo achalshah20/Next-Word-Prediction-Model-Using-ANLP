@@ -1,0 +1,14 @@
+#button1, #button2, #button3{
+		margin-top:  10px;
+	   padding: 10px 25px;
+	   background-color: #2fa4e7 !important;
+	   border-color: #2fa4e7 !important;
+	   width: 20% !important;
+	   display: inline;
+
+}
+
+
+#text{
+	width: 60%;
+}
