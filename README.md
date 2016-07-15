@@ -1,1 +1,1 @@
-# Swiftkey-Word-Prediction-System-NLP
+# Next word prediction model using ANLP
