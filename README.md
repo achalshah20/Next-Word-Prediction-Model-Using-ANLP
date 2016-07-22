@@ -1,6 +1,6 @@
 # Next word prediction model using ANLP
 
-Next word prediction model is an application which is trained on large amount of text data to predict next word based on previous words. I got the motivation to build this application from SwiftKey  mobile phone application which is doing a similar job but in personalized manner.
+Next word prediction model is an application which is trained on large amount of text data to predict next word based on previous words.
 
 **This application was developed in 5 phases:**
 
@@ -37,5 +37,16 @@ In the fields of computational linguistics and probability, an n-gram is a conti
 
 I have generated from 1 to 5 gram models.
 
+### 4. Predictions using Backoff algorithm
+Backoff algorithm is used to predict next word based on previous N words. 
+* It will traverse last N-1 words in N-gram models until it matches. It returns the most probable 3 words which can be next word.
+* If none of the last N-1 words matches with the N-gram models then it returns the most common 3 words from unigram model.
+
+### 5. Deployment on shiny server
+Shiny server is very useful to host data products built using R for free. 
+It supports web design languages like HTML,CSS, JavaScript etc.
+
+**Next word prediction model as a data product:**
+[https://achalshah20.shinyapps.io/NextWordPredictionModel/](https://achalshah20.shinyapps.io/NextWordPredictionModel/)
 
 
