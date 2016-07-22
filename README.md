@@ -48,5 +48,3 @@ It supports web design languages like HTML,CSS, JavaScript etc.
 
 **Next word prediction model as a data product:**
 [https://achalshah20.shinyapps.io/NextWordPredictionModel/](https://achalshah20.shinyapps.io/NextWordPredictionModel/)
-
-
